@@ -1,0 +1,23 @@
+{
+  "name": "trabajo-practica-luis-carlos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://luissanchez.github.io/trabajo-practico-rutas-luis-carlos",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.x",
+    "react-dom": "^18.x",
+    "react-router-dom": "^6.x"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.3",
+    "vite": "^7.3.1"
+  }
+}
